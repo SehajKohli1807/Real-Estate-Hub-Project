@@ -1,4 +1,4 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import './App.css'
 import Header from './Components/Header'
 import Hero from './Components/Hero'
@@ -9,7 +9,7 @@ import Contacts from './Components/Contacts'
 import GetStarted from './Components/GetStarted'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
