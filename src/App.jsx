@@ -5,6 +5,7 @@ import Hero from './Components/Hero'
 import Card from './Components/Cards'
 import Logo from './Components/logos'
 import Value from './Components/Value'
+import Contacts from './Components/Contacts'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
       <Logo />
       <Card />
       <Value />
+      <Contacts />
      </div>
     </>
   )
