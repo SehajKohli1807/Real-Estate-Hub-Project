@@ -14,6 +14,8 @@ export default function Contacts() {
             <br></br>
           </div>
           <br></br>
+          <div className="cc-column">
+          <div className="cc-left">
           <div className="contact-cards">
             <div className="parent-flex">
             <span className="contact-card-icon">
@@ -44,6 +46,42 @@ export default function Contacts() {
             <div className="contactcard-btn">
                 <button>Video Call Now</button>
             </div>
+          </div>
+          </div>
+{/* ---*/}
+<div className="cc-right">
+          <div className="contact-cards">
+            <div className="parent-flex">
+            <span className="contact-card-icon">
+                <MdCall size={40} />
+            </span>
+            <div className="info-center">
+            <span className="contact-card-title">Call</span>
+            <span className="contact-card-num">97899087</span>
+            
+            </div>
+            </div>
+            <div className="contactcard-btn">
+                <button>Call Now</button>
+            </div>
+          </div>
+{/* */}
+          <div className="contact-cards">
+            <div className="parent-flex">
+            <span className="contact-card-icon">
+                <BsFillChatDotsFill size={40} />
+            </span>
+            <div className="info-center">
+            <span className="contact-card-title">Video Call</span>
+            <span className="contact-card-num">97899087</span>
+            
+            </div>
+            </div>
+            <div className="contactcard-btn">
+                <button>Video Call Now</button>
+            </div>
+          </div>
+          </div>          
           </div>
 {/* */}
         </div>

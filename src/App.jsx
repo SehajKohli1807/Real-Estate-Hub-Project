@@ -6,6 +6,7 @@ import Card from './Components/Cards'
 import Logo from './Components/logos'
 import Value from './Components/Value'
 import Contacts from './Components/Contacts'
+import GetStarted from './Components/GetStarted'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
       <Card />
       <Value />
       <Contacts />
+      <GetStarted />
      </div>
     </>
   )
