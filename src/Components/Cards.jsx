@@ -27,8 +27,8 @@ export default function Card() {
                   <div className="card-image">
                     <img src={card.image}></img>
                   </div>
-                  <span className="price"> ${card.price}</span>
-                  <div className="card-name">{card.name}</div>
+                  <span className="price">${card.price}</span>
+                  <div className="card-name ch2">{card.name}</div>
                   <div className="card-info">{card.detail}</div>
                 </div>
               </SwiperSlide>

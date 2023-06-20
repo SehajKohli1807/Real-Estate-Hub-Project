@@ -7,6 +7,7 @@ import Logo from './Components/logos'
 import Value from './Components/Value'
 import Contacts from './Components/Contacts'
 import GetStarted from './Components/GetStarted'
+import Footer from './Components/Footer'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -21,6 +22,7 @@ function App() {
       <Value />
       <Contacts />
       <GetStarted />
+      <Footer />
      </div>
     </>
   )
