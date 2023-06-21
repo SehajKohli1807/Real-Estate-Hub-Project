@@ -51,15 +51,15 @@ export default function Contacts() {
               <div className="contact-cards">
                 <div className="parent-flex">
                   <span className="contact-card-icon">
-                    <MdCall size={40} />
+                    <BsFillChatDotsFill size={40} />
                   </span>
                   <div className="info-center">
-                    <span className="contact-card-title">Call</span>
+                    <span className="contact-card-title">Chat</span>
                     <span className="contact-card-num">97899087</span>
                   </div>
                 </div>
                 <div className="contactcard-btn">
-                  <button>Call Now</button>
+                  <button>Chat Now</button>
                 </div>
               </div>
               {/* */}
@@ -69,12 +69,12 @@ export default function Contacts() {
                     <HiChatBubbleBottomCenter size={40} />
                   </span>
                   <div className="info-center">
-                    <span className="contact-card-title">Chat</span>
+                    <span className="contact-card-title">Message</span>
                     <span className="contact-card-num">97899087</span>
                   </div>
                 </div>
                 <div className="contactcard-btn">
-                  <button>Chat Now</button>
+                  <button>Message Now</button>
                 </div>
               </div>
             </div>

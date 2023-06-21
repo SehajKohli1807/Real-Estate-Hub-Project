@@ -139,6 +139,13 @@ a {
   color: black;
 }
 
+/*Value*/
+.logo-main{
+margin-top: 3rem;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
 /*Card */
 .card-main {
   margin: 1rem 2rem;
@@ -409,7 +416,7 @@ a {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin: 2rem;
+  margin: 1.8rem;
   width: 80%;
 }
 
@@ -436,7 +443,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
-  gap: 1.1rem;
+  gap: 1.2rem;
 }
 
 .footer-ch2 {
@@ -449,4 +456,5 @@ a {
 
 .footer-menu ul{
   font-weight: 500;
+  font-size: 1.1rem;
 }
