@@ -19,8 +19,6 @@ function App() {
       <div className="white-gradient" />
       <Header />
       <Hero />
-     
-     
       <Logo />
       <Card />
       <Value />
