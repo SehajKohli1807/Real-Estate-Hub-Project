@@ -26,7 +26,8 @@ export default function Value() {
                 {accordian_data.map((item) => (
                   <AccordionItem className="accord-item" key={item.uuid}>
                     <AccordionItemHeading className="accord-heading">
-                      <AccordionItemButton>{item.heading}</AccordionItemButton>
+                      <AccordionItemButton>
+                        <span>{item.heading}</span></AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>{item.detail}</AccordionItemPanel>
                   </AccordionItem>

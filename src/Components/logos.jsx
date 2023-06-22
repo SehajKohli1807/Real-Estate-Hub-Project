@@ -8,6 +8,7 @@ export default function Logo() {
                 <img src="./images/c3.png" alt=""width={160}></img>
                 <img src="./images/c2.png" alt=""width={160}></img>
             </div>
+            
         </section>
     )
 }

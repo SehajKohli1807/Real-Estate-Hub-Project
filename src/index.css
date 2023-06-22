@@ -141,7 +141,8 @@ a {
 
 /*Value*/
 .logo-main{
-margin-top: 3rem;
+margin-top: 3.2rem;
+margin-bottom: 2rem;
 display: flex;
 justify-content: space-evenly;
 align-items: center;
@@ -149,7 +150,13 @@ align-items: center;
 /*Card */
 .card-main {
   margin: 1rem 2rem;
-  padding: 1.5rem;
+  padding: 1.3rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
 }
 
 .ch1 {
@@ -168,6 +175,7 @@ align-items: center;
 
 .displaycard {
   margin: 1.5rem 1rem;
+  width: 90%;
 }
 
 .price {
@@ -177,8 +185,8 @@ align-items: center;
 }
 
 .card-image {
-  height: 18rem;
-  width: 24rem;
+  height: 17.5rem;
+  width: 23.2rem;
 }
 
 .card-image img {
@@ -220,6 +228,32 @@ align-items: center;
   transform: scale(1.05);
 }
 
+
+.card-header{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  position: relative;
+}
+
+.rbtn{
+  /* margin: 1.4rem 1rem 1.2rem 1.6rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.3rem;
+ 
+}
+
+.r-buttons button{
+  
+  background-color: aliceblue;
+  color: blue;
+  font-size: 1.3rem;
+  font-weight: 500;
+  padding: 0.2rem 0.7rem;
+}
+
 /*Values*/
 
 .value {
@@ -235,8 +269,8 @@ align-items: center;
 }
 
 .val-left {
-  width: 29rem;
-  height: 34rem;
+  width: 29.5rem;
+  height: 35.5rem;
   display: flex;
   align-items: flex-start;
 }
